@@ -1,0 +1,19 @@
+@import "./colors";
+
+.benefitCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  line-height: 1.5em;
+
+  .benefitCard__title {
+    margin: 2rem 0;
+    font-weight: 300;
+    color: $darkBlue;
+  }
+
+  .benefitCard__desc {
+    color: $grayishBlue;
+    font-weight: 300;
+  }
+}

@@ -2,7 +2,7 @@
 
 .hero {
   position: relative;
-  background-color: $lightGrayishBlue;
+  background-color: $veryLightGrey;
   height: 100vh;
   display: flex;
 
@@ -51,7 +51,7 @@
       position: absolute;
       z-index: 1;
       top: -7.5rem;
-      right: -10.5rem;
+      right: -8.5rem;
     }
   }
 }

@@ -1,0 +1,24 @@
+@import "./colors";
+
+.benefit {
+  background-color: $lightGrayishBlue;
+  width: 100vw;
+  padding: 8rem;
+
+  .benefit__cards {
+    display: flex;
+  }
+
+  .benefit__title {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: $darkBlue;
+    margin-bottom: 2rem;
+  }
+
+  .benefit__desc {
+    color: $grayishBlue;
+    margin-bottom: 2rem;
+    line-height: 2em;
+  }
+}
