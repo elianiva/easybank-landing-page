@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import "./colors";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: $white;
+}
