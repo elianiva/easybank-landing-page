@@ -2,8 +2,9 @@
 
 .navbar {
   position: relative;
+  z-index: 2;
   padding: 1rem;
-  box-shadow: 0 0 0.75rem rgba($color: #000000, $alpha: 0.1);
+  background-color: $white;
 
   .navbar__wrapper {
     margin: auto;

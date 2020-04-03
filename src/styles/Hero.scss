@@ -1,0 +1,49 @@
+@import "./colors";
+
+.hero {
+  position: relative;
+  background-color: $lightGrayishBlue;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+
+  .hero__bg {
+    position: absolute;
+    top: -15rem;
+    right: -30rem;
+    bottom: 0;
+    z-index: 0;
+    object-fit: cover;
+  }
+
+  .hero__left {
+    position: relative;
+    flex: 1;
+    padding: 8rem;
+
+    .hero__title {
+      font-size: 3.5rem;
+      font-weight: 300;
+      color: $darkBlue;
+      margin-bottom: 1rem;
+    }
+
+    .hero__desc {
+      line-height: 1.5em;
+      font-size: 1.125rem;
+      color: $grayishBlue;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .hero__right {
+    flex: 1;
+
+    .hero__phones {
+      position: absolute;
+      z-index: 1;
+      top: -7.5rem;
+      right: -10.5rem;
+    }
+  }
+}
