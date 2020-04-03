@@ -1,0 +1,40 @@
+@import "./colors";
+
+.articleCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  border-radius: 0.5rem;
+  max-width: 16rem;
+
+  .articleCard__img {
+    img {
+      height: 12rem;
+      max-width: 100%;
+      object-fit: cover;
+      border-radius: 0.25rem 0.25rem 0 0;
+    }
+  }
+
+  .articleCard__details {
+    padding: 1.25rem;
+
+    .articleCard__author {
+      color: $grayishBlue;
+      font-size: 0.75rem;
+    }
+
+    .articleCard__title {
+      display: block;
+      font-size: 1.125rem;
+      margin: 1rem 0;
+      color: $darkBlue;
+    }
+
+    .articleCard__desc {
+      color: $grayishBlue;
+      font-size: 0.9rem;
+    }
+  }
+}
