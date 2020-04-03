@@ -9,7 +9,9 @@ import Button from "./Button"
 function Hero() {
   return (
     <header className="hero">
-      <img src={background} alt="bg" className="hero__bg" />
+      <div className="hero__bg__wrapper">
+        <img src={background} alt="bg" className="hero__bg" />
+      </div>
       <div className="hero__left">
         <h1 className="hero__title">
           Next generation <br /> digital banking

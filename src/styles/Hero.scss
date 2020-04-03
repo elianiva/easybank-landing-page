@@ -4,16 +4,24 @@
   position: relative;
   background-color: $lightGrayishBlue;
   height: 100vh;
-  overflow: hidden;
   display: flex;
 
-  .hero__bg {
+  .hero__bg__wrapper {
     position: absolute;
-    top: -15rem;
-    right: -30rem;
+    top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
-    z-index: 0;
-    object-fit: cover;
+    overflow: hidden;
+
+    .hero__bg {
+      position: absolute;
+      top: -15rem;
+      right: -30rem;
+      bottom: 0;
+      z-index: 0;
+      object-fit: cover;
+    }
   }
 
   .hero__left {
