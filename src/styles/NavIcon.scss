@@ -1,0 +1,12 @@
+.nav-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-icon {
+    display: block;
+    border: none;
+    background-color: #ffffff;
+  }
+}

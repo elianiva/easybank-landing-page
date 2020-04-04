@@ -11,7 +11,7 @@
   .articleCard__img {
     img {
       height: 12rem;
-      max-width: 100%;
+      width: 100%;
       object-fit: cover;
       border-radius: 0.25rem 0.25rem 0 0;
     }
@@ -36,5 +36,13 @@
       color: $grayishBlue;
       font-size: 0.9rem;
     }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .articleCard {
+    margin: 2rem auto;
+    max-width: 90vw;
+    text-align: left;
   }
 }

@@ -28,3 +28,33 @@
     line-height: 2em;
   }
 }
+
+@media screen and (max-width: 960px) {
+  .benefit {
+    text-align: center;
+    padding: 5rem 1rem;
+
+    .benefit__wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .benefit__cards {
+      display: block;
+      justify-content: space-between;
+    }
+
+    .benefit__title {
+      font-size: 2.5rem;
+      font-weight: 100;
+      color: $darkBlue;
+      margin-bottom: 2rem;
+    }
+
+    .benefit__desc {
+      color: $grayishBlue;
+      margin-bottom: 2rem;
+      line-height: 2em;
+    }
+  }
+}

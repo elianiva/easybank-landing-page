@@ -16,12 +16,15 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -10vh;
     overflow: hidden;
 
     .hero__bg {
+      background-image: url(../assets/bg-intro-desktop.svg);
+      background-size: contain;
       position: absolute;
-      top: -15rem;
+      top: -12.5rem;
+      left: 85vh;
       right: -32rem;
       bottom: 0;
       z-index: 0;
@@ -42,6 +45,7 @@
     }
 
     .hero__desc {
+      max-width: 28rem;
       line-height: 1.5em;
       font-size: 1.125rem;
       color: $grayishBlue;
@@ -50,6 +54,7 @@
   }
 
   .hero__right {
+    max-width: 60vw;
     flex: 1;
 
     .hero__phones {
@@ -57,6 +62,65 @@
       z-index: 1;
       top: -7.5rem;
       right: -8.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .hero {
+    width: 100vw;
+    overflow: hidden;
+
+    .hero__wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .hero__bg__wrapper {
+      .hero__bg {
+        background-image: url(../assets/bg-intro-mobile.svg);
+        background-size: cover;
+        top: -12.5rem;
+        left: 0;
+        right: 0rem;
+        bottom: 0;
+      }
+    }
+
+    .hero__left {
+      position: relative;
+      text-align: center;
+      padding: 2rem;
+      margin-top: -2rem;
+
+      .hero__title {
+        font-size: 2rem;
+      }
+
+      .hero__desc {
+        line-height: 1.5em;
+        font-size: 1rem;
+        color: $grayishBlue;
+        margin: 2rem auto;
+      }
+    }
+
+    .hero__right {
+      position: relative;
+      min-width: 90vw;
+      max-height: 50vh;
+      margin: 0 auto;
+      flex: 1;
+      display: flex;
+
+      .hero__phones {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        flex: 1;
+        z-index: 1;
+      }
     }
   }
 }

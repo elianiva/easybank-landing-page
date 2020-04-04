@@ -23,3 +23,15 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 960px) {
+  .article {
+    padding: 5rem 1rem;
+    text-align: center;
+
+    .article__cards {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

@@ -2,6 +2,7 @@ import React from "react"
 import logo from "../assets/logo.svg"
 import "../styles/Navbar.scss"
 import Button from "./Button"
+import NavIcon from "./NavIcon"
 
 function Navbar() {
   return (
@@ -20,6 +21,7 @@ function Navbar() {
         <div className="navbar__button">
           <Button text="Request Invite" />
         </div>
+        <NavIcon />
       </div>
     </nav>
   )
