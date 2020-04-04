@@ -3,10 +3,16 @@
 .benefit {
   background-color: $lightGrayishBlue;
   width: 100vw;
-  padding: 8rem;
+  padding: 8rem 0;
+
+  .benefit__wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
 
   .benefit__cards {
     display: flex;
+    justify-content: space-between;
   }
 
   .benefit__title {

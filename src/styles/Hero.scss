@@ -3,8 +3,13 @@
 .hero {
   position: relative;
   background-color: $veryLightGrey;
-  height: 100vh;
-  display: flex;
+  height: 90vh;
+
+  .hero__wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+  }
 
   .hero__bg__wrapper {
     position: absolute;
@@ -17,7 +22,7 @@
     .hero__bg {
       position: absolute;
       top: -15rem;
-      right: -30rem;
+      right: -32rem;
       bottom: 0;
       z-index: 0;
       object-fit: cover;
@@ -27,7 +32,7 @@
   .hero__left {
     position: relative;
     flex: 1;
-    padding: 8rem;
+    padding: 8rem 0;
 
     .hero__title {
       font-size: 3.5rem;

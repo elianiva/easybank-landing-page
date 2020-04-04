@@ -1,8 +1,13 @@
 @import "./colors";
 
 .article {
-  padding: 8rem;
+  padding: 8rem 0;
   background-color: $veryLightGrey;
+
+  .article__wrapper {
+    max-width: 1080px;
+    margin: auto;
+  }
 
   .article__title {
     h1 {
