@@ -19,18 +19,16 @@
     right: 0;
     bottom: -10vh;
     overflow: hidden;
-    max-height: 100%;
 
     .hero__bg {
       background-image: url(../assets/bg-intro-desktop.svg);
       background-size: cover;
       position: absolute;
       top: -12.5rem;
-      left: 85vh;
-      right: -32rem;
+      left: 90vh;
+      right: 0;
       bottom: 0;
       z-index: 0;
-      max-height: 120vh;
     }
   }
 
