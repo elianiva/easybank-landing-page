@@ -3,10 +3,11 @@
 .hero {
   position: relative;
   background-color: $veryLightGrey;
-  height: 90vh;
+  height: 38rem;
 
   .hero__wrapper {
     max-width: 1080px;
+    max-height: 100%;
     margin: 0 auto;
     display: flex;
   }
@@ -18,17 +19,18 @@
     right: 0;
     bottom: -10vh;
     overflow: hidden;
+    max-height: 100%;
 
     .hero__bg {
       background-image: url(../assets/bg-intro-desktop.svg);
-      background-size: contain;
+      background-size: cover;
       position: absolute;
       top: -12.5rem;
       left: 85vh;
       right: -32rem;
       bottom: 0;
       z-index: 0;
-      object-fit: cover;
+      max-height: 120vh;
     }
   }
 
@@ -54,14 +56,15 @@
   }
 
   .hero__right {
-    max-width: 60vw;
+    position: relative;
+    max-width: 50vw;
     flex: 1;
 
     .hero__phones {
       position: absolute;
       z-index: 1;
       top: -7.5rem;
-      right: -9rem;
+      right: -16rem;
     }
   }
 }
