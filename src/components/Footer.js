@@ -42,6 +42,22 @@ function Footer() {
           <span> &copy; Easybank. All Rights Reserved</span>
         </div>
       </div>
+      <div class="attribution">
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          // eslint-disable-next-line react/jsx-no-target-blank
+          target="_blank"
+          className="link"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a href="https://irrellia.github.io" className="link">
+          irrellia
+        </a>
+        .
+      </div>
     </footer>
   )
 }

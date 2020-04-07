@@ -70,6 +70,16 @@
       margin-top: 1rem;
     }
   }
+
+  .attribution {
+    text-align: center;
+    font-size: 0.75rem;
+    color: $white;
+
+    .link {
+      color: $limeGreen;
+    }
+  }
 }
 
 @media screen and (max-width: 800px) {
